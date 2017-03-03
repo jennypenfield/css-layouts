@@ -1,0 +1,562 @@
+div {
+  box-sizing: border-box;
+}
+
+.mondrian-container{
+  width: 90vw;
+  height: 50vw;
+  display: flex;
+  flex-direction: row;
+  border: 10px black solid;
+}
+
+.left-column{
+  display: flex;
+  flex:2;
+  order: 1;
+  flex-direction: column;
+}
+
+.middle-column-left{
+  display: flex;
+  flex: 1;
+  order: 2;
+  flex-direction: column;
+  border-left: 5px black solid;
+  border-right: 5px black solid;
+}
+
+.right-column{
+  flex: 2;
+  order: 4;
+  flex-direction: column;
+  display: flex;
+}
+
+
+.middle-column-right{
+  display: flex;
+  order: 3;
+  flex: 1;
+  flex-direction: column;
+  border-right: 5px black solid;
+
+}
+
+.yellow-boxes{
+  display: flex;
+  flex-direction: column;
+  flex: 3;
+}
+
+.white-boxes{
+  display: flex;
+  flex-direction: row;
+  flex: 2;
+}
+
+.yw-boxes{
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.box1{
+  background-color: yellow;
+  flex: 1;
+}
+
+.box2{
+  background-color: yellow;
+  flex: 2;
+  border-top: 5px black solid;
+  border-bottom: 5px black solid;
+}
+
+.box3{
+  flex: 1;
+  border-right: 5px black solid;
+  border-bottom: 5px black solid;
+}
+
+.box4{
+  flex: 1;
+  border-bottom: 5px black solid;
+}
+
+.wbr-boxes{
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.box5{
+  flex: 1;
+  border-bottom: 5px black solid;
+}
+
+.box6{
+  flex: 2;
+  border-bottom: 5px black solid;
+  background-color: blue;
+}
+
+.box7{
+  flex: 2;
+  background-color: red;
+}
+
+.brw-boxes{
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.wywb-boxes{
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+
+.box8{
+  flex: 2;
+  background-color: blue;
+  border-bottom: 5px black solid;
+}
+
+.box9{
+  flex: 2;
+  background-color: red;
+  border-bottom: 5px black solid;
+}
+
+.box10{
+  flex: 1;
+  border-bottom: 5px black solid;
+}
+
+.boxes11-12{
+  flex-direction: row;
+  display: flex;
+  flex: 2;
+}
+
+.box11{
+  flex: 1;
+  border-right: 5px black solid;
+}
+
+.box12{
+  flex: 1;
+}
+
+.box13{
+  background-color: yellow;
+  flex: 2;
+  border-bottom: 5px black solid;
+  border-top: 5px black solid;
+}
+
+.boxes14-15{
+  flex: 1;
+  flex-direction: row;
+  display: flex;
+}
+
+.box14{
+  flex: 1;
+  border-right: 5px black solid;
+}
+
+.box15{
+  flex: 1;
+  background-color: black;
+}
+
+.top-row-right{
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  border-bottom: 5px black solid;
+}
+
+.middle-right-boxes{
+  display: flex;
+  flex: 8;
+  flex-direction: row;
+  border-bottom: 5px black solid;
+}
+
+.bottom-row-right{
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+}
+
+.box16{
+  flex: 1;
+  background-color: yellow;
+  border-right: 5px black solid;
+}
+
+.box17{
+  flex: 1;
+  background-color: black;
+  border-right: 5px black solid;
+}
+
+.box18{
+  flex: 3;
+}
+
+.box19{
+  flex: 7;
+  border-right: 5px black solid;
+}
+
+.box20{
+  flex: 3;
+}
+
+.right-ad-bar{
+  flex: 1;
+  flex-direction: column;
+  display: flex;
+  border-left: 5px black solid;
+}
+
+.right-nested-boxes{
+  flex: 4;
+  flex-direction: column;
+  display: flex;
+}
+
+.box21{
+  flex: 3;
+  background-color: yellow;
+  border-bottom: 5px black solid;
+}
+
+.box22{
+  flex: 3;
+  border-bottom: 5px black solid;
+}
+
+.box23{
+  flex: 2;
+}
+
+.top-box-right{
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.top-inner{
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  border-bottom: 5px black solid;
+}
+
+.yb-boxes{
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  border-right: 5px black solid;
+}
+
+.inner-whitey{
+  flex: 1;
+}
+
+.bottom-inner{
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+}
+
+.lower-box-right{
+  border-top: 5px black solid;
+  background-color: blue;
+  flex: 1;
+}
+
+.box24{
+  background-color: blue;
+}
+
+.black-box{
+  flex: 1;
+  background-color: black;
+}
+
+.box25{
+  background-color: yellow;
+  flex: 1;
+}
+
+.box26{
+  background-color: black;
+  flex: 1;
+}
+
+.two-whiteys{
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  border-right: 5px black solid;
+}
+
+.box27{
+  flex: 1;
+  border-bottom: 5px black solid;
+}
+
+.box28{
+  flex: 1;
+}
+
+/*LEFT COLUMN RULES*/
+.left-corner-top{
+  display: flex;
+  flex-direction: column;
+  flex: 6;
+  border-bottom: 5px black solid;
+}
+
+.left-corner-bottom{
+  display: flex;
+  flex-direction: row;
+  flex: 4;
+}
+
+.top-row-left{
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+  border-bottom: 5px black solid;
+}
+
+.top-second-left{
+  display: flex;
+  flex: 5;
+  flex-direction: row;
+}
+
+.box29{
+  flex: 2;
+  border-right: 5px black solid;
+}
+
+.box30{
+  flex: 4;
+}
+
+.left-col-1{
+  flex: 1;
+  flex-direction: column;
+  display: flex;
+  border-right: 5px black solid;
+}
+
+.left-col-boxes{
+  display: flex;
+  flex-direction: column;
+}
+
+.red-total{
+  flex: 4;
+  display: flex;
+  flex-direction: column;
+}
+
+.box31{
+  flex: 2;
+  border-bottom: 5px black solid;
+
+}
+
+.box32{
+  flex: 3;
+}
+
+.red-top{
+  flex: 4;
+  background-color: red;
+  border-bottom: 5px black solid;
+}
+
+.box33{
+
+  background-color: red;
+}
+
+.bw-row{
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+}
+
+.box34{
+  background-color: black;
+  flex: 1;
+}
+
+.box35{
+  flex: 1;
+}
+
+.ybw-left{
+  display: flex;
+  flex: 3;
+  flex-direction: column;
+  border-right: 5px black solid;
+}
+
+.wbyw-rt{
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+}
+
+.ybw-left-inner{
+  flex: 3;
+}
+
+.wb-boxes{
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.yw-inner-boxes{
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+}
+
+.box36{
+  flex: 1;
+  border-bottom: 5px black solid;
+}
+
+.box37{
+  flex: 1;
+  background-color: black;
+  border-bottom: 5px black solid;
+}
+
+.box38{
+  flex: 1;
+  background-color: yellow;
+  border-right: 5px black solid;
+}
+
+.box39{
+  flex: 1;
+}
+
+.ybw-rows{
+  flex: 3;
+  flex-direction: row;
+  display: flex;
+}
+
+.box40{
+  flex: 1;
+  border-top: 5px black solid;
+}
+
+.last-div{
+  flex: 6;
+  display: flex;
+  flex-direction: column;
+}
+
+.box41{
+  flex: 3;
+  background-color: yellow;
+  border-right: 5px black solid;
+}
+
+.box42{
+  flex: 1;
+  background-color: black;
+}
+
+.box43{
+  flex: 2;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
