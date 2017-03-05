@@ -22,17 +22,15 @@ ul,li { list-style-type: none;
       }
 
 .header-box{
-  border: 5px black solid;
   background-color: #6666ff;
+  border: 5px black solid;
   text-align: center;
-  /*width: 100%;*/
 }
 
 .center-columns{
   display: flex;
   flex-grow: 1;
   width: 100%;
-
 }
 
 .menu-box-left{
@@ -52,7 +50,6 @@ ul,li { list-style-type: none;
   margin-bottom: -20px;
   margin-top:0;
   text-align: center;
-
 }
 
 .content-box-center{
@@ -84,7 +81,6 @@ ul,li { list-style-type: none;
   background-color: #6666ff;
   border: 5px black solid;
   text-align: center;
-  /*width: 100%;*/
 }
 
 
