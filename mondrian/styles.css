@@ -3,44 +3,42 @@ div {
 }
 
 .mondrian-container{
-  width: 90vw;
-  height: 50vw;
+  border: 10px black solid;
   display: flex;
   flex-direction: row;
-  border: 10px black solid;
+  height: 50vw;
+  width: 90vw;
 }
 
 .left-column{
   display: flex;
+  flex-direction: column;
   flex:2;
   order: 1;
-  flex-direction: column;
 }
 
 .middle-column-left{
-  display: flex;
-  flex: 1;
-  order: 2;
-  flex-direction: column;
   border-left: 5px black solid;
   border-right: 5px black solid;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  order: 2;
 }
 
 .right-column{
+  display: flex;
+  flex-direction: column;
   flex: 2;
   order: 4;
-  flex-direction: column;
-  display: flex;
 }
 
-
 .middle-column-right{
-  display: flex;
-  order: 3;
-  flex: 1;
-  flex-direction: column;
   border-right: 5px black solid;
-
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  order: 3;
 }
 
 .yellow-boxes{
@@ -68,42 +66,42 @@ div {
 
 .box2{
   background-color: yellow;
-  flex: 2;
-  border-top: 5px black solid;
   border-bottom: 5px black solid;
+  border-top: 5px black solid;
+  flex: 2;
 }
 
 .box3{
-  flex: 1;
-  border-right: 5px black solid;
   border-bottom: 5px black solid;
+  border-right: 5px black solid;
+  flex: 1;
 }
 
 .box4{
-  flex: 1;
   border-bottom: 5px black solid;
+  flex: 1;
 }
 
 .wbr-boxes{
-  flex: 1;
   display: flex;
   flex-direction: column;
+  flex: 1;
 }
 
 .box5{
-  flex: 1;
   border-bottom: 5px black solid;
+  flex: 1;
 }
 
 .box6{
-  flex: 2;
-  border-bottom: 5px black solid;
   background-color: blue;
+  border-bottom: 5px black solid;
+  flex: 2;
 }
 
 .box7{
-  flex: 2;
   background-color: red;
+  flex: 2;
 }
 
 .brw-boxes{
@@ -118,33 +116,32 @@ div {
   flex: 1;
 }
 
-
 .box8{
-  flex: 2;
   background-color: blue;
   border-bottom: 5px black solid;
+  flex: 2;
 }
 
 .box9{
-  flex: 2;
   background-color: red;
   border-bottom: 5px black solid;
+  flex: 2;
 }
 
 .box10{
-  flex: 1;
   border-bottom: 5px black solid;
+  flex: 1;
 }
 
 .boxes11-12{
-  flex-direction: row;
   display: flex;
+  flex-direction: row;
   flex: 2;
 }
 
 .box11{
-  flex: 1;
   border-right: 5px black solid;
+  flex: 1;
 }
 
 .box12{
@@ -153,57 +150,57 @@ div {
 
 .box13{
   background-color: yellow;
-  flex: 2;
   border-bottom: 5px black solid;
   border-top: 5px black solid;
+  flex: 2;
 }
 
 .boxes14-15{
-  flex: 1;
-  flex-direction: row;
   display: flex;
+  flex-direction: row;
+  flex: 1;
 }
 
 .box14{
-  flex: 1;
   border-right: 5px black solid;
+  flex: 1;
 }
 
 .box15{
-  flex: 1;
   background-color: black;
+  flex: 1;
 }
 
 .top-row-right{
-  display: flex;
-  flex: 1;
-  flex-direction: row;
   border-bottom: 5px black solid;
+  display: flex;
+  flex-direction: row;
+  flex: 1;
 }
 
 .middle-right-boxes{
-  display: flex;
-  flex: 8;
-  flex-direction: row;
   border-bottom: 5px black solid;
+  display: flex;
+  flex-direction: row;
+  flex: 8;
 }
 
 .bottom-row-right{
   display: flex;
-  flex: 1;
   flex-direction: row;
+  flex: 1;
 }
 
 .box16{
-  flex: 1;
   background-color: yellow;
   border-right: 5px black solid;
+  flex: 1;
 }
 
 .box17{
-  flex: 1;
   background-color: black;
   border-right: 5px black solid;
+  flex: 1;
 }
 
 .box18{
@@ -211,8 +208,8 @@ div {
 }
 
 .box19{
-  flex: 7;
   border-right: 5px black solid;
+  flex: 7;
 }
 
 .box20{
@@ -220,27 +217,27 @@ div {
 }
 
 .right-ad-bar{
-  flex: 1;
-  flex-direction: column;
-  display: flex;
   border-left: 5px black solid;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
 }
 
 .right-nested-boxes{
-  flex: 4;
-  flex-direction: column;
   display: flex;
+  flex-direction: column;
+  flex: 4;
 }
 
 .box21{
-  flex: 3;
   background-color: yellow;
   border-bottom: 5px black solid;
+  flex: 3;
 }
 
 .box22{
-  flex: 3;
   border-bottom: 5px black solid;
+  flex: 3;
 }
 
 .box23{
@@ -248,23 +245,23 @@ div {
 }
 
 .top-box-right{
-  flex: 1;
   display: flex;
   flex-direction: column;
+  flex: 1;
 }
 
 .top-inner{
-  flex: 1;
+  border-bottom: 5px black solid;
   display: flex;
   flex-direction: row;
-  border-bottom: 5px black solid;
+  flex: 1;
 }
 
 .yb-boxes{
-  flex: 1;
+  border-right: 5px black solid;
   display: flex;
   flex-direction: column;
-  border-right: 5px black solid;
+  flex: 1;
 }
 
 .inner-whitey{
@@ -272,14 +269,14 @@ div {
 }
 
 .bottom-inner{
-  flex: 1;
   display: flex;
   flex-direction: row;
+  flex: 1;
 }
 
 .lower-box-right{
-  border-top: 5px black solid;
   background-color: blue;
+  border-top: 5px black solid;
   flex: 1;
 }
 
@@ -288,8 +285,8 @@ div {
 }
 
 .black-box{
-  flex: 1;
   background-color: black;
+  flex: 1;
 }
 
 .box25{
@@ -303,15 +300,15 @@ div {
 }
 
 .two-whiteys{
-  flex: 1;
+  border-right: 5px black solid;
   display: flex;
   flex-direction: column;
-  border-right: 5px black solid;
+  flex: 1;
 }
 
 .box27{
-  flex: 1;
   border-bottom: 5px black solid;
+  flex: 1;
 }
 
 .box28{
@@ -320,10 +317,10 @@ div {
 
 /*LEFT COLUMN RULES*/
 .left-corner-top{
+  border-bottom: 5px black solid;
   display: flex;
   flex-direction: column;
   flex: 6;
-  border-bottom: 5px black solid;
 }
 
 .left-corner-bottom{
@@ -333,21 +330,21 @@ div {
 }
 
 .top-row-left{
+  border-bottom: 5px black solid;
   display: flex;
   flex-direction: row;
   flex: 1;
-  border-bottom: 5px black solid;
 }
 
 .top-second-left{
   display: flex;
-  flex: 5;
   flex-direction: row;
+  flex: 5;
 }
 
 .box29{
-  flex: 2;
   border-right: 5px black solid;
+  flex: 2;
 }
 
 .box30{
@@ -355,10 +352,10 @@ div {
 }
 
 .left-col-1{
-  flex: 1;
-  flex-direction: column;
-  display: flex;
   border-right: 5px black solid;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
 }
 
 .left-col-boxes{
@@ -367,15 +364,14 @@ div {
 }
 
 .red-total{
-  flex: 4;
   display: flex;
   flex-direction: column;
+  flex: 4;
 }
 
 .box31{
-  flex: 2;
   border-bottom: 5px black solid;
-
+  flex: 2;
 }
 
 .box32{
@@ -383,20 +379,19 @@ div {
 }
 
 .red-top{
-  flex: 4;
   background-color: red;
   border-bottom: 5px black solid;
+  flex: 4;
 }
 
 .box33{
-
   background-color: red;
 }
 
 .bw-row{
-  flex: 1;
   display: flex;
   flex-direction: row;
+  flex: 1;
 }
 
 .box34{
@@ -409,16 +404,16 @@ div {
 }
 
 .ybw-left{
-  display: flex;
-  flex: 3;
-  flex-direction: column;
   border-right: 5px black solid;
+  display: flex;
+  flex-direction: column;
+  flex: 3;
 }
 
 .wbyw-rt{
-  flex: 2;
   display: flex;
   flex-direction: column;
+  flex: 2;
 }
 
 .ybw-left-inner{
@@ -426,32 +421,32 @@ div {
 }
 
 .wb-boxes{
-  flex: 1;
   display: flex;
   flex-direction: column;
+  flex: 1;
 }
 
 .yw-inner-boxes{
-  flex: 1;
   display: flex;
   flex-direction: row;
+  flex: 1;
 }
 
 .box36{
-  flex: 1;
   border-bottom: 5px black solid;
+  flex: 1;
 }
 
 .box37{
-  flex: 1;
   background-color: black;
   border-bottom: 5px black solid;
+  flex: 1;
 }
 
 .box38{
-  flex: 1;
   background-color: yellow;
   border-right: 5px black solid;
+  flex: 1;
 }
 
 .box39{
@@ -459,104 +454,33 @@ div {
 }
 
 .ybw-rows{
-  flex: 3;
-  flex-direction: row;
   display: flex;
+  flex-direction: row;
+  flex: 3;
 }
 
 .box40{
-  flex: 1;
   border-top: 5px black solid;
+  flex: 1;
 }
 
 .last-div{
-  flex: 6;
   display: flex;
   flex-direction: column;
+  flex: 6;
 }
 
 .box41{
-  flex: 3;
   background-color: yellow;
   border-right: 5px black solid;
+  flex: 3;
 }
 
 .box42{
-  flex: 1;
   background-color: black;
+  flex: 1;
 }
 
 .box43{
   flex: 2;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
